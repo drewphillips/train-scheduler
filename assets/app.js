@@ -1,15 +1,16 @@
 console.log("hello");
 
 // Initialize Firebase
+
 var config = {
-    apiKey: "AIzaSyDZP5gaNNWwVLBdpGleBlBcgImfZLK1pbY",
-    authDomain: "train-scheduler-700f5.firebaseapp.com",
-    databaseURL: "https://train-scheduler-700f5.firebaseio.com",
-    projectId: "train-scheduler-700f5",
-    storageBucket: "train-scheduler-700f5.appspot.com",
-    messagingSenderId: "782341293893"
-};
-firebase.initializeApp(config);
+    apiKey: "AIzaSyCM5ajTkCLkITFy6obB40K5JVJfID7w3BA",
+    authDomain: "train-sched-176fe.firebaseapp.com",
+    databaseURL: "https://train-sched-176fe.firebaseio.com",
+    projectId: "train-sched-176fe",
+    storageBucket: "",
+    messagingSenderId: "868573763341"
+  };
+  firebase.initializeApp(config);
 
 var trainData = firebase.database();
 
